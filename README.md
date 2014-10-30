@@ -26,6 +26,51 @@ Dallas
 389
 0
 
-This denotes there are 4 different locations, and the distance between each stop. Here is a better representation of the information above: 
+This denotes there are 4 different locations, and the distance between each stop. The results would be as follows:
 
+Calculating:
 
+SanDiego to Phoenix --   350 miles
+Phoenix to Denver --   560 miles
+Denver to Dallas --   389 miles
+Dallas to SanDiego --  1100 miles
+Distance is   2399
+
+SanDiego to Phoenix --   350 miles
+Phoenix to Dallas --   604 miles
+Dallas to Denver --   389 miles
+Denver to SanDiego --   900 miles
+Distance is   2243
+
+SanDiego to Denver --   900 miles
+Denver to Phoenix --   560 miles
+Phoenix to Dallas --   604 miles
+Dallas to SanDiego --  1100 miles
+Distance is   3164
+
+SanDiego to Denver --   900 miles
+Denver to Dallas --   389 miles
+Dallas to Phoenix --   604 miles
+Phoenix to SanDiego --   350 miles
+Distance is   2243
+
+SanDiego to Dallas --  1100 miles
+Dallas to Denver --   389 miles
+Denver to Phoenix --   560 miles
+Phoenix to SanDiego --   350 miles
+Distance is   2399
+
+SanDiego to Dallas --  1100 miles
+Dallas to Phoenix --   604 miles
+Phoenix to Denver --   560 miles
+Denver to SanDiego --   900 miles
+Distance is   3164
+
+ ------------------------------
+The best path is:
+SanDiego to Phoenix --   350 miles
+Phoenix to Dallas --   604 miles
+Dallas to Denver --   389 miles
+Denver to SanDiego --   900 miles
+
+Best distance is:   2243 miles
